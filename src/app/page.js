@@ -148,6 +148,18 @@ export default function Home() {
           <p>Nav item</p>
         </div>
       </div>
+
+      <div className={styles.mobileFooter}>
+        <div className={styles.footerSection}>
+          <p className={styles.sitetitle}>Software Recruitement co.</p>
+          <div className={styles.socialIcons}>
+            <FontAwesomeIcon icon={faLinkedinIn} style={{ height: 20, width: 20, paddingRight: 20 }} />
+            <FontAwesomeIcon icon={faFacebook} style={{ height: 20, width: 20, paddingRight: 20 }} />
+            <FontAwesomeIcon icon={faInstagram} style={{ height: 20, width: 20, paddingRight: 20 }} />
+            <FontAwesomeIcon icon={faTwitter} style={{ height: 20, width: 20 }} />
+          </div>
+        </div>
+      </div>
     </main>
   );
 }
